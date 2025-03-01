@@ -1,6 +1,6 @@
 # DefenShe 🚨 | AI-Powered Women’s Safety App 
 
-🔒 **Stay Safe, Stay Fearless, Stay DefenShe.**  
+## **🔒 Stay Safe, Stay Fearless, Stay DefenShe.**
 
 **DefenShe** is an AI-driven women’s safety app designed to provide **real-time protection, smart threat detection, and instant SOS alerts**. Built with **Flutter, Firebase, and AI-powered analytics**, DefenShe ensures that help is just a tap—or a word—away.  
 
