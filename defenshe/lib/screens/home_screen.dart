@@ -1,4 +1,3 @@
-import 'package:defenshe/screens/signin_screen.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -12,15 +11,11 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: const Text("Home")),
       body: Center(
-        child: ElevatedButton(
-          child: const Text("Logout"),
-          onPressed: (){
-            Navigator.push(context,
-            MaterialPageRoute(builder: (context) => const SignInScreen()));
-          },
-        ),
+        child: Text("Welcome to Home Screen"),
       ),
     );
   }
 }
+

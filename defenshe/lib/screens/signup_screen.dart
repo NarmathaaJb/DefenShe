@@ -1,7 +1,10 @@
 import 'package:defenshe/reusable_widgets/reusable_widget.dart';
 import 'package:defenshe/screens/home_screen.dart';
+import 'package:defenshe/screens/sos_screen.dart';
 import 'package:defenshe/utils/colors_utils.dart';
 import 'package:flutter/material.dart';
+
+
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -61,7 +64,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 ),
                 signInSignUpButton(context, false, () {
                   Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const HomeScreen()));
+                  MaterialPageRoute(builder: (context) => SOSScreen()));
                 })
               ],
             ),
